@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>index.html</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<table class="tab_1">
+  <tr>
+    <td width="314">RealTime Video </td>
+    <td width="256">Setting Control </td>
+  </tr>
+  <tr>
+    <td><object classid="clsid:E23FE9C6-778E-49D4-B537-38FCDE4887D8" codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab"
+		width="620" height="564" events="True" id="vlc2">
+    <!--  <param name="MRL" value="rtsp://192.168.10.118:8554/test.264" /> -->
+      <param name="ShowDisplay" value="True" />
+      <param name="Loop" value="False" />
+      <param name="AutoPlay" value="True" />
+      <param name="toolbar" value="false" />
+    </object></td>
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="489" height="564">
+      <param name="movie" value="video.swf" />
+      <param name="quality" value="high" />
+      <param name="bgcolor" value="#ffffff" />
+      <param name="allowScriptAccess" value="sameDomain" />
+      <param name="allowFullScreen" value="true" />
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="video.swf" width="100%" height="100%">
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#ffffff" />
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="allowFullScreen" value="true" />
+        <!--<![endif]-->
+        <!--[if gte IE 6]>-->
+        <p> Either scripts and active content are not permitted to run or Adobe Flash Player version
+          11.1.0 or greater is not installed. </p>
+        <!--<![endif]-->
+        <a href="http://www.adobe.com/go/getflashplayer"> <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" width="100%" height="434" /> </a>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object></td>
+  </tr>
+</table>
+</body>
+</html>
+
